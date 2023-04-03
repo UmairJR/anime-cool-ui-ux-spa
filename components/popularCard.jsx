@@ -25,6 +25,7 @@ const popularCard = ({ imgUrl, title, subtitle, index }) => (
       </div>
     </div>
   </motion.div>
+  
 );
 
 export default popularCard;
