@@ -1,4 +1,5 @@
 'use client';
+
 import {motion} from 'framer-motion';
 import styles from '../styles';
 import {staggerContainer, fadeIn, textVariant, textContainer, textVariant2} from '../utils/motion';
