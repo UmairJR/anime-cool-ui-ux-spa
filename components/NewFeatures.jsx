@@ -1,3 +1,4 @@
+/* eslint-disable */
 import styles from '../styles';
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
@@ -14,7 +15,7 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
       {subtitle}
     </p>
   </div>
-  
+
 );
 
 export default NewFeatures;
