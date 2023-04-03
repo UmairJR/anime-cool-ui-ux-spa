@@ -2,10 +2,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
 import { fadeIn } from '../utils/motion';
 
-const popularCard = ({ imgUrl, title, subtitle, index }) => (
+const PopularCard = ({ imgUrl, title, subtitle, index }) => (
   <motion.div
     variants={fadeIn('up', 'spring', index * 0.5, 1)}
     className="flex md:flex-row flex-col gap-4"
@@ -29,4 +28,4 @@ const popularCard = ({ imgUrl, title, subtitle, index }) => (
 
 );
 
-export default popularCard;
+export default PopularCard;

@@ -54,7 +54,7 @@ export const newFeatures = [
   },
 ];
 
-export const insights = [
+export const popular = [
   {
     imgUrl: '/monkey-d-luffy.png',
     title: 'Monkey D. Luffy',
